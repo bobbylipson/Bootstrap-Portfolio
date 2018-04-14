@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>
+        <link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="row">
+        <header id="masthead">
+          <nav class="navbar navbar-inverse">
+            <div class="container">
+                <a hef="index.html" id="logo">Bobby Lipson</a>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+            </div>
+          </nav>
+        </header>
+        </div>
+        <div class="main-container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h1>Contact</h1>
+                </div>   
+                <div class="col-sm-4">    
+                    <form id="contact-form">
+                        <ul>
+                            <li>
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                            </li>
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                            <li>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" required="required"></textarea>
+                            </li>
+                        </ul>
+                        <input type="submit" name="submit">
+                    </form>
+                </div>
+            
+
+                <div class="col-sm-4">
+                    <div id="connect">
+                        <h2>Connect with Bob</h2>
+                        <a href="https://github.com/bobbylipson"><img src="assets/images/github.png" class="social" alt="Github"></a>
+                        <a href="https://www.linkedin.com/in/robert-lipson-6642b8a7//"><img src="assets/images/linkedIn.png" class="social" alt="LinkedIn"></a>
+                        <img src="assets/images/gmail.png" class="social" alt="Gmail">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <div class="container">&copy; Copyright 2018 Bobby Lipson</div>
+        </footer>
+    </body>
+</html>
